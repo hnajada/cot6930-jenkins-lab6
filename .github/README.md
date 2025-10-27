@@ -3,7 +3,6 @@
 In this lab, you will explore how to perform Continuous Integration(CI) using Jenkins. You are highly recommended to use team virtual machine for this lab. </br>
 Jenkins has a wide range of functionalities that facilitate the software development process. In this lab, we will focus on the Continuous Integration aspect, which means updates to the code base are continuously tested to ensure the program's quality.</br>
 The testing tool we use is [pytest](https://docs.pytest.org/en/7.1.x/index.html). It is a light weight tool that collect test cases automatically. 
-To receive credit for this lab, show your work to the TA during recitation.
 
 ## Deliverables
 - [ ] Show correct configuration of a Jenkins pipeline on **[Lab6 Github Repo](https://github.com/hnajada/cot6930-jenkins-lab6/)**. The build process must automatically fetch Jenkinsfile and run pipeline according to it.
@@ -64,7 +63,6 @@ Notice that there is file named `test_utility.py` in our repo. Pytest will recur
 ## Complete the Jenkins File
 - Read the Jenkinsfile carefully in the github repo. Then modifies **TODO** section to make Jenkins run pytest during each build.
 - After the modification, **push** your changes into your **forked repository**.
-- Show TA the modified Jenkins file to complete a deliverable.
 
 
 ## Additional Resources
